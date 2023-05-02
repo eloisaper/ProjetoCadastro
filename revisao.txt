@@ -1,0 +1,14 @@
+comando sql se dividem em duas linguagens 
+    DDL (Data Definition Language)
+    -> comando de definição de banco de dados 
+    ex: create database name
+        drop database name
+        create table name
+        drop table name
+
+    DML (Data Manipulation Language)
+    ->comandos de manipulação de dados
+    ex: select colunas from tabela
+        insert into tabela (colunas)
+        delete from tabela 
+        update colunas from tabela
