@@ -11,7 +11,7 @@
     echo "Fone: $fone";
     echo "Senha: $senha";
 
-    $sql = "insert into usuario (nome_usuario, email_usuario, fone_ususario, senha)";
+    $sql = "insert into usuario (nome_usuario, email_usuario, fone_usuario, senha)";
     $sql .= "values ('".$nome."','".$email."','".$fone."','".$senha."')";
     echo $sql. "<br>";
     $result = mysqli_query($con, $sql);
