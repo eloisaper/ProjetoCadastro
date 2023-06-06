@@ -72,11 +72,13 @@ $row = mysqli_fetch_array($result);
         </div>
         <div>
             <label for="fone">Fone: </label>
-<input type="tel" name="fone" id="fone" placeholder="Digite seu telefone"  pattern="\([0-9]{2}\)([9]{1})?[0-9]{4}-[0-9]{4}"
-value="<?php echo $row ['fone_usuario']?>">
-
+            <input type="tel" name="fone" id="fone" placeholder="Digite seu telefone"  pattern="\([0-9]{2}\)([9]{1})?[0-9]{4}-[0-9]{4}"
+                value="<?php echo $row ['fone_usuario']?>">
         </div>
-          <div>
+        <div>
+            <input type="file" name="foto" id="foto" accept="image/*">
+        </div>
+        <div>
             <label for="senha">Senha: </label>
             <input type="password" name="senha" id="senha" placeholder="Password" required
             value="<?php echo $row ['senha']?>">
